@@ -12,4 +12,4 @@ Here you'll find my most recent showcases for what i do <br>
 />](https://www.youtube.com/watch?v=YiLkudRIqLg)
 
 
-<video width="630" height="300" src="https://user-images.githubusercontent.com/126239/151127893-5c98ba8d-c431-4a25-bb1f-e0b33645a2b6.mp4"></video>
+<video width="630" height="300" src="https://github.com/orlvskid/audio/blob/b44cd5b8c2993f80d21f98b6358a5033268215c0/assets/test.mp4"></video>
