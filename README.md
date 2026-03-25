@@ -1,3 +1,4 @@
 # daniel orlovski audio engineering | design <br> 
-<img src="[img_girl.jpg](https://www.freepik.com/free-photo/lavender-field-sunset-near-valensole_35758793.htm#fromView=keyword&page=1&position=0&uuid=2602f55a-e6c4-4429-81d7-c2a3ca6fec37&query=Landscape)" alt="Girl in a jacket" width="500" height="600">
+! [check 1 2](https://live.staticflickr.com/8262/8624634664_9285cb8085_b.jpg) <br>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/dan_eagle/8624634664/in/dateposted-public/" title="Покидая Сванетию"><img src="https://live.staticflickr.com/8262/8624634664_9285cb8085_b.jpg" width="1024" height="683" alt="Покидая Сванетию"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br>
 Here you'll find my most recent showcases for what i do
