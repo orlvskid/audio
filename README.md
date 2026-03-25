@@ -6,3 +6,7 @@ Here you'll find my most recent showcases for what i do <br>
 ![](/output.mp4)
 
 <video src="assets/text.mp4" width="100%" controls></video>
+[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://www.youtube.com/embed/<VIDEO_ID>)
+
+[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/<VIDEO_ID>)
