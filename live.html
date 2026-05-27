@@ -62,8 +62,9 @@
 							<p>The moments, people live for. The unforgettable expeiriences. Let me tell you what it takes to make one work!</p>
 							<p>
 								<span class="">
-								<details class="expandanleList">
-								  <summary class="button">get straight to business</summary>
+								<details class="expandingList" id="businessList">
+								  <summary class="button" id="businessListButton">get straight to business</summary>
+								  <slot>
 							 		 <ul>
 							   			 <li><a href="media/cv-orlovski.pdf"><strong>CV</strong></a></li>
 							   			 <li><strong>Work with: </strong>[Pixelim, Noise, Sincopa, Reading 3, Ariel Hamzani, Alon Berkovich,Simon Mor]</li>
@@ -71,7 +72,7 @@
 							   			 <li><strong>Skills: </strong>[Dante, Avid, AVB, LA Network manager, Patching, Organizing, Soldering, Troubleshooting]</li>
 							   			 <li>My live shows <strong>recordings:</strong>
 							   			 	<p class="audioFiles">
-							   			 		<audio class="media" id="audio1" src="media/komnata-new.wav" >
+							   			 		<audio class="media" id="audio1" src="media/flamenco short.wav" >
 							   			 		</audio>
 							   			 		<button id="audio-control1">Flamenco band 2017 Moscow</button>
 							   			 		<button class="audioCtrlDummy" id="dummy1"></button>
@@ -84,6 +85,7 @@
 							   			 	</p>
 							   			 </li>
 							  		</ul>
+							  		</slot>
 								</details>
 									</span>
 									<br />
@@ -136,17 +138,12 @@
 
 
 
-									<!-- MEDIA ONLY 1 PLAYING -->
-							<script>
-								
-							</script>
-
-
-
-
 
 							<script>
-								var coll = document.getElementsByClassName("collapsible");
+
+
+								/*COLLAPSIBLE*/
+								/*var coll = document.getElementsByClassName("collapsible");
 								var i;
 
 								for (i = 0; i < coll.length; i++) {
@@ -159,7 +156,7 @@
 								      content.style.display = "block";
 								    }
 								  });
-								}
+								}*/
 						
 
 								/*<!-- <div id="video-container1">
@@ -172,6 +169,15 @@
 								// Source - https://stackoverflow.com/a/39839918
 									// Posted by FluxCoder, modified by community. See post 'Timeline' for change history
 									// Retrieved 2026-03-30, License - CC BY-SA 4.0
+
+
+
+
+
+
+										/*VIDEO PLAYER BUTTON*/
+
+
 
 									var video1 = document.getElementById("video1");
 									var playButton = document.getElementById("play_button1");
@@ -216,6 +222,9 @@
 
 											/*ONE MEDIA AT A TIME*/
 
+
+
+
 									// Select all audio elements with the class 'player'
 								const allMedia = document.querySelectorAll('.media');
 
@@ -257,6 +266,19 @@
 
 
 
+								/*OPENED-CLOSED LIST LISTENER*/
+
+
+
+							var list = document.getElementById("businessList");
+							var button = document.getElementById("businessListButton");
+								list.addEventListener("toggle", (event) => {
+								  if (list.open) {
+								  	button.classList.add("listOpened");
+								  } else {
+								  	button.classList.remove("listOpened");
+								  }
+								});
 
 
 
